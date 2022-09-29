@@ -8,7 +8,7 @@ db = cluster["DB"]
 collection = db["Data"]
 
 st.set_page_config (page_title="TO-DO APP", page_icon="📒",layout="wide")
-# st.markdown(""" <style>#Sidebsr {visibility: hidden;}footer {visibility: hidden;}</style> """, unsafe_allow_html=True)
+st.markdown(""" <style>#Sidebsr {visibility: hidden;}footer {visibility: hidden;}</style> """, unsafe_allow_html=True)
 
 st.write('<style>div.block-container{padding-left:2.3rem;padding-top:0.1rem;}</style>', unsafe_allow_html=True)
 
